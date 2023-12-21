@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/cfhm.css">
+</head>
+
+<body>
+
+  <!-- Start Header -->
+  <nav class="navbar navbar-expand-lg p-2">
+    <div class="container">
+      <!-- <a class="navbar-brand" href="#">CFHM</a> -->
+      <img class="navbar-brand" style="width: 90px;" src="../images/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ps-lg-2">
+          <li class="nav-item">
+            <a class="nav-link active  ps-3 aria-current=" page" href="#">Acceuil</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ps-3 ps-lg-2" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Formations
+            </a>
+            <ul class="dropdown-menu  " aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item ps-3" href="#">Programation web</a></li>
+              <li><a class="dropdown-item ps-3" href="#">Programation mobile</a></li>
+              <li><a class="dropdown-item ps-3" href="#">Formation 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link ps-3 ps-lg-2" href="#">Contact</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link ps-3 ps-lg-2 inscription" href="../html/form.html">Inscription</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Header -->
+
+
+
+  <!-- Start Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active img-1">
+        <!-- <img src="background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg" class="d-block w-100" alt="..."> -->
+      </div>
+      <div class="carousel-item img-2">
+        <!-- <img src="istockphoto-1341408852-640x640.jpg" class="d-block w-100" alt="..."> -->
+      </div>
+      <div class="carousel-item img-3">
+        <!-- <img src="pexels-markus-spiske-1089438.jpg" class="d-block w-100" alt="..."> -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Start Carousel -->
+
+  <!-- Start Formations -->
+
+  <!-- Button trigger modal -->
+
+
+  <h1 class="formation m-4 text-center" style="font-weight: bold; color: #1e4580;">Formations</h1>
+  <div class="container">
+    <div class="row gap-4 justify-content-center">
+      <!-- Development -->
+      <div class="card col-lg-4 col-md-6" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Développement Infromatique</h5>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Info...
+          </button>
+
+
+
+        </div>
+      </div>
+      <!-- for 2 -->
+      <div class="card col-lg-4 col-md-6 " style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Informatique et Bureautique</h5>
+          <a href="#" class="btn btn-primary">Info...</a>
+        </div>
+      </div>
+      <!-- for 3 -->
+      <div class="card col-lg-4 col-md-6" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Transport et logistique</h5>
+          <a href="#" class="btn btn-primary">Info...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+
+
+
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel" style="font-weight: bold;">Développement Infromatique
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-dialog modal-dialog-scrollable p-2" style="direction: rtl;">
+
+          <h3 class="title">شعبة التقني المتخصص في البرمجة و المعلومیات</h3>
+          <h3 class="title">Technicien spécialisé en développement informatique</h3>
+          <p class="content">محتویات الموضوع :</p>
+          <ol class="content-list">
+            <li><a href="#foo">نظرة عامة عن التكوین في مجال التقني المتخصص في البرمجة و المعلومیات </a></li>
+            <li><a href="#para-2">مھام التقني المتخصص في البرمجة و المعلومیات التطبیقیة</a></li>
+            <li><a href="#foo">المھارات و المكتسبات التي سیحصل علیھا المتدرب خلال التكوین بمعھد المھن التطبیقیة</a></li>
+            <li><a href="#foo">آفاق التقني المتخصص في البرمجة و المعلومیات</a></li>
+            <li><a href="#foo">شروط الترشح لتقني متخصص في البرمجة و المعلومیات</a></li>
+            <li><a href="">معاییر الانتقاء لولوج تقني متخصص في البرمجة و المعلومیات</a></li>
+          </ol>
+          <p class="title-dev">1 - نظرة عامة عن التكوین في مجال التقني المتخصص في البرمجة والمعلومیات:</p>
+          <p class="title-para ">
+            یھدف التكوین في ھذا المجال إلى تزوید الطلاب بالمھارات اللازمة لتطویر البرمجیات وفھم أساسیات تقنیات
+            المعلومات. یتناولالبرنامج مواضیع مثل لغات البرمجة، تطویر الویب، قواعد البیانات، وأساسیات الشبكات.
+            التقني المتخصص في تنمیة المعلومیات ھو المسؤول عن تطویر وصیانة تطبیقات الحاسوب. یعمل بشكل عام في خدمات
+            تكنولوجیاالمعلومات ومع الشركات التي تھتم بمیدان الإعلامیات، یقوم بتطویر ولإنتاج تطبیقات معلوماتیة سواء على
+            مستوى جھاز الحاسوب أو الھواتف الذكیة إضافة إلى عملھا على برمجة وتصمیم المواقع الإلكترونیة، وبالتالي فھو یدرس
+            في السنة الأولى أساسیات البرمجةانطلاقا من تعلم الخوارزمیات (ألغوریتم) ولغة البرمجة سي ثم یتعرف على البرمجة
+            الكائنیة التوجھ وقواعد البیانات، كما یتدرب فيالسنة الثانیة على إنتاج تطبیقات تخص المواقع الإلكترونیة وكذلك
+            التخطیط المعلوماتي وینفتح على الشبكات وعلى لغات برمجةأخرى
+          </p>
+          <p class="title-dev" id="para-2">2 - مھام التقني المتخصص في البرمجة و المعلومیات التطبیقیة:</p>
+          <ul>
+            <li>التفاعل مع العملاء لفھم احتیاجاتھم ومتطلبات الموقع</li>
+            <li> تصمیم واجھات المستخدم بطریقة تسھم في تحسین تجربة المستخدم.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- End Formations -->
+
+
+
+  <script src="../js/all.min.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
