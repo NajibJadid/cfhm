@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+}
+
+
+
+
+.navbar .navbar-nav .nav-link,
+.dropdown-item {
+    color: #1e4580;
+}
+
+.inscription {
+    background: #F86F03;
+    border-radius: 30px;
+}
+
+.navbar-toggler {
+    border: 1px orange solid;
+    color: #1e4580;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+
+
+.img-1 {
+    background-image: url(../web.jpg);
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url(../mobile.jpg);
+    background-position: center;
+
+}
+
+.img-3 {
+    background-image: url(../background-dimension-3d-graphic-message-board-for-text-and-message-design-line-shadow-for-modern-web-design-free-vector.jpg);
+}
+
+.carousel-item {
+    height: calc(100vh - 69px);
+    background-size: cover;
+}
+
+
+.card-body .btn {
+    background-color: transparent;
+    color: #1e4580;
+    border-radius: 30px;
+    border-color: #F86F03;
+}
+
+.modal .modal-title {
+    color: #1e4580;
+
+}
+
+.modal .title  {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #1e4580;
+}
+
+.modal .content {
+    text-align: right;
+    direction: rtl;
+    font-weight: bold;
+    color: #F86F03;
+}
+
+.modal .content-list {
+    direction: rtl;
+
+}
+
+.modal .content-list li a {
+    text-decoration: none;
+    color: #1e4580;
+
+}
+
+.modal-dialog {
+    pointer-events: all;
+}
+
+.modal-dialog .title-dev  {
+    direction: rtl;
+    color: #1e4580;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.title-para {
+    direction: rtl;
+    color: #1e4580;
+    text-align: justify;
+
+}
